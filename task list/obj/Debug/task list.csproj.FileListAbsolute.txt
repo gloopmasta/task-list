@@ -1,0 +1,8 @@
+C:\Users\Matteo\Desktop\gamedev\task list\bin\Debug\task list.exe.config
+C:\Users\Matteo\Desktop\gamedev\task list\bin\Debug\task list.exe
+C:\Users\Matteo\Desktop\gamedev\task list\bin\Debug\task list.pdb
+C:\Users\Matteo\Desktop\gamedev\task list\obj\Debug\task list.csproj.AssemblyReference.cache
+C:\Users\Matteo\Desktop\gamedev\task list\obj\Debug\task list.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matteo\Desktop\gamedev\task list\obj\Debug\task list.csproj.CoreCompileInputs.cache
+C:\Users\Matteo\Desktop\gamedev\task list\obj\Debug\task list.exe
+C:\Users\Matteo\Desktop\gamedev\task list\obj\Debug\task list.pdb
