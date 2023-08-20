@@ -125,9 +125,9 @@ namespace task_list
         }
         static void WriteTasklist(List<Task> taskList, int selection, bool justMarked, SortState sort)
         {
-            //Some shit for the alphabetical order
-            List<string> namesList = new List<string>();
-            List<Task> alphabeticalList = new List<Task>();
+            //Some shit for the alphabetical order NOT NEEDED ANYMORE :DDDDDDDD
+            //List<string> namesList = new List<string>();
+            //List<Task> alphabeticalList = new List<Task>();
 
             switch (sort)
             {
@@ -147,26 +147,28 @@ namespace task_list
                     break;
 
                 case SortState.Alphabetical: // sort ALPHABETICAL
-                    namesList.Clear();
-                    alphabeticalList.Clear();
+                    //namesList.Clear();
+                    //alphabeticalList.Clear();
 
-                    foreach (Task item in taskList)
-                    {
-                        namesList.Add(item.TaskName);
-                    }
+                    //foreach (Task item in taskList)
+                    //{
+                    //    namesList.Add(item.TaskName);
+                    //}
 
-                    namesList.Sort();
+                    //namesList.Sort();
 
-                    for (int i = 0; i < namesList.Count; i++)
-                    {
-                        for (int a = 0; a < taskList.Count; a++)
-                        {
-                            if (namesList[i] == taskList[a].TaskName)
-                            {
-                                alphabeticalList.Add(new Task(namesList[i], taskList[a].Marked));
-                            }
-                        }
-                    }
+                    //for (int i = 0; i < namesList.Count; i++)
+                    //{
+                    //    for (int a = 0; a < taskList.Count; a++)
+                    //    {
+                    //        if (namesList[i] == taskList[a].TaskName)
+                    //        {
+                    //            alphabeticalList.Add(new Task(namesList[i], taskList[a].Marked));
+                    //        }
+                    //    }
+                    //}
+
+                    List<Task> sortedAlphabetical = taskList.OrderBy(t => t.TaskName).ToList();
 
 
 
